@@ -1,0 +1,1 @@
+Sample hashi reporter script
