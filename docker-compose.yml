@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mock-reporter:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    env_file: 
+      - .env
+    logging:
+      driver: "json-file"

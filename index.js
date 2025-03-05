@@ -44,7 +44,6 @@ const main = async () => {
   );
 };
 
-// Run the script every 5 minutes
 setInterval(main, parseInt(process.env.INTERVAL));
 
 // Run immediately on start
